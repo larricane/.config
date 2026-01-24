@@ -1,7 +1,3 @@
-# --- 性能优化 ---
-# 启用 zsh 内置命令加速
-zmodload zsh/zprof
-
 # --- 插件配置和加载 ---
 # Powerlevel10k 配置
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
@@ -57,7 +53,6 @@ bindkey '^[[B' history-search-forward
 bindkey '^A' beginning-of-line
 bindkey '^E' end-of-line
 
-# --- 加载自定义函数 ---
 # 加载自定义函数
 for func in ${ZDOTDIR}/functions/*.zsh; do
     source $func
@@ -67,3 +62,6 @@ done
 for conf in ${ZDOTDIR}/conf.d/*.zsh; do
     source $conf
 done
+
+# To customize prompt, run `p10k configure` or edit ~/.config/zsh/plugins/.p10k.zsh.
+[[ ! -f ~/.config/zsh/plugins/.p10k.zsh ]] || source ~/.config/zsh/plugins/.p10k.zsh

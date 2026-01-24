@@ -1,7 +1,17 @@
-/alacritty
 /bat
+/cursor
+/eza
+/gh
 /htop
+/poetry
+
+/mihomo/*.yaml
+
+**/.DS_Store
+
 /zsh/.zsh_sessions/
 /zsh/.zcompdump
+/zsh/.vscode
+/zsh/*.env
 
-.DS_Store
+/.wrangler
