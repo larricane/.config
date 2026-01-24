@@ -1,8 +1,8 @@
 # 代理设置函数
 proxy_on() {
-  export http_proxy="http://127.0.0.1:7893"
-  export https_proxy="http://127.0.0.1:7893"
-  export all_proxy="socks5://127.0.0.1:7893"
+  export http_proxy="http://127.0.0.1:7890"
+  export https_proxy="http://127.0.0.1:7890"
+  export all_proxy="socks5://127.0.0.1:7890"
   echo "HTTP、HTTPS 和 SOCKS5 代理已开启"
 }
 
