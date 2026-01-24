@@ -1,0 +1,16 @@
+payload:
+  # 自定义直连
+  # 格式：类型,内容
+
+  # 域名后缀
+  - DOMAIN-SUFFIX,jgdhds.com
+  - DOMAIN-SUFFIX,sportsteam356.com
+  - DOMAIN-SUFFIX,lzcdn27.com
+  - DOMAIN-SUFFIX,avking.xyz
+
+  # 域名关键字
+  - DOMAIN-KEYWORD,modujx
+  - DOMAIN-KEYWORD,jisuts
+
+  # 精确域名
+  # - DOMAIN,specific-site.com
