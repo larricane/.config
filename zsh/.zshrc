@@ -16,6 +16,7 @@ local plugins=(
     # 本地插件配置
     ${ZDOTDIR}/plugins/.p10k.zsh
     ${ZDOTDIR}/plugins/.zoxide.zsh
+    ${ZDOTDIR}/plugins/zsh-osx-autoproxy.plugin.zsh
 )
 
 # 统一加载所有插件
