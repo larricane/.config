@@ -4,13 +4,14 @@
 /gh
 /htop
 /poetry
-
+/zashboard
 /mihomo/*.yaml
 
 **/.DS_Store
 
 /zsh/.zsh_sessions/
 /zsh/.zcompdump
+/zsh/.zcompcache
 /zsh/.vscode
 /zsh/*.env
 
