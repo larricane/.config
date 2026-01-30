@@ -8,7 +8,9 @@
 /mihomo/*.yaml
 
 **/.DS_Store
+**/*.md
 
+/zsh/disabled
 /zsh/.zsh_sessions/
 /zsh/.zcompdump
 /zsh/.zcompcache

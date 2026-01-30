@@ -21,15 +21,15 @@ if [[ -x /opt/homebrew/bin/brew ]]; then
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# Volta 配置目录
+export VOLTA_ROOT="$HOME/.volta" 
+
 # Python 相关配置
 export PYENV_ROOT="$HOME/.pyenv"
 export POETRY_HOME="$HOME/.poetry"
 export POETRY_CONFIG_DIR="$XDG_CONFIG_HOME/poetry"
 export POETRY_DATA_DIR="$XDG_DATA_HOME/poetry"
-export POETRY_CACHE_DIR="$XDG_CACHE_HOME/poetry"
-
-# nvm 配置
-export NVM_DIR="$HOME/.nvm"
+export POETRY_CACHE_DIR="$XDG_CACHE_HOME/poetry" 
 
 # bat 主题设置
 export BAT_THEME=tokyonight_night
@@ -43,6 +43,7 @@ mkdir -p $ZSH_CACHE_DIR $ZSH_DATA_DIR $ZSH_STATE_DIR
 
 # 基础路径设置
 path=(
+    $VOLTA_ROOT/bin
     $PYENV_ROOT/shims
     $PYENV_ROOT/bin
     $HOME/bin
