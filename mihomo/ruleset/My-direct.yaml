@@ -3,11 +3,12 @@ payload:
   # 格式：类型,内容
 
   # 域名后缀
-  - DOMAIN-SUFFIX,jgdhds.com
+  - DOMAIN-SUFFIX,zhibo8.com
   - DOMAIN-SUFFIX,sportsteam356.com
+  - DOMAIN-SUFFIX,jgdhds.com
+  - DOMAIN-SUFFIX,htfbudv.com
   - DOMAIN-SUFFIX,lzcdn27.com
   - DOMAIN-SUFFIX,avking.xyz
-  - DOMAIN-SUFFIX,zhibo8.com
 
   # 域名关键字
   - DOMAIN-KEYWORD,modujx
