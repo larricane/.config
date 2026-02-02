@@ -4,13 +4,13 @@ payload:
 
   # 域名后缀
   - DOMAIN-SUFFIX,zhibo8.com
-  - DOMAIN-SUFFIX,sportsteam356.com
   - DOMAIN-SUFFIX,jgdhds.com
   - DOMAIN-SUFFIX,htfbudv.com
   - DOMAIN-SUFFIX,lzcdn27.com
   - DOMAIN-SUFFIX,avking.xyz
 
   # 域名关键字
+  - DOMAIN-KEYWORD,sportsteam
   - DOMAIN-KEYWORD,modujx
   - DOMAIN-KEYWORD,jisuts
 
