@@ -1,13 +1,13 @@
-  # 域名后缀
-  DOMAIN-SUFFIX,javrate.com
-  DOMAIN-SUFFIX,hupu.com
-  DOMAIN-SUFFIX,douyin.com
+# 域名后缀
+DOMAIN-SUFFIX,javrate.com
+DOMAIN-SUFFIX,hupu.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,weibo.com
+# 域名关键字
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,mrds
+DOMAIN-KEYWORD,manga
+DOMAIN-KEYWORD,zhihu
 
-  # 域名关键字
-  DOMAIN-KEYWORD,porn
-  DOMAIN-KEYWORD,mrds
-  DOMAIN-KEYWORD,manga
-  DOMAIN-KEYWORD,zhihu
-
-  # 精确域名
-  DOMAIN,douyin.com
+# 精确域名
+DOMAIN,douyin.com
